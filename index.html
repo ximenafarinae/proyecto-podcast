@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Podcast</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/fontawesome-free-5.12.1-web/fontawesome-free-5.12.1-web/css/all.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <img class="logo" src="images/logo.svg" alt="logo de la empresa">
+            <ul>
+                <li> <a href="#episodes">EPISODIOS</a> </li>
+                <li> <a href="#us">NOSOTROS</a></li>
+                <li> <a href="#interviews">ENTREVISTAS</a></li>
+                <li> <a href="#topics">TÓPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seccion Intro -->
+
+    <section class="intro">
+
+        <h1 class="texto">Hello <s>world</s> pale blue dot<span class="blue_dot">.</span></h1>
+
+        <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los
+            jueves cada 15 días.</p>
+
+        <button class="conoce_mas">CONOCÉ MÁS</button>
+
+    </section>
+
+    <!-- Seccion episodios -->
+
+    <section id="episodes" class="episodios">
+
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points=" 0,100 0,0 100,0 "/>
+        </svg> -->
+        <div class="content">
+
+           
+
+            <h2>Episodios</h2>
+
+            <div>
+                <iframe class="its_just" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+                    allow="encrypted-media"></iframe>
+                <iframe class="rework" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+                    allow="encrypted-media"></iframe>
+
+            </div>
+
+            <div>
+
+                <iframe class="the_fund" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+                    allow="encrypted-media"></iframe>
+                <iframe class="ruby" src="https://open.spotify.com/embed-podcast/episode/7h3hED0Fb2FN3xg709Y0rL"
+                    allow="encrypted-media"></iframe>
+
+            </div>
+
+        </div>
+
+       <!--  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points="0 ,100 100,0 100,100"/>
+          </svg> -->
+
+    </section>
+
+    <!-- Seccion De donde venimos -->
+
+    <section id="us" class="de_donde_venimos">
+
+        <img class="phone" src="/images/phone.png" alt="">
+
+        <div class="texto">
+            <h2>De dónde venimos</h2>
+            <p>
+                Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+                Universe, are challenged by this point of pale light.
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                vastness,
+                there is no hint that help will come from elsewhere to save us from ourselves.
+            </p>
+        </div>
+
+
+    </section>
+
+    <section id="interviews" class="invitados">
+
+        <h2>Invitadas/os estelares</h2>
+
+        <div class="invitados_img">
+            <img src="/images/grace-hopper.png" alt="Grace Hopper">
+            <img src="/images/Katie-Bouman.png" alt="Katie Bouman">
+            <img src="/images/Margaret_Hamilton.png" alt="Margaret Hamilton">
+            <img src="/images/An-E.R.A.Univac-1103-computer-in-the-1950s.png"
+                alt="An E.R.A.Univac 1103 computer in the 1950s">
+            <img src="/images/Computer-operators-with-an-Eniac—-the-world’s-first-programmable-general-purpose-computer.png"
+                alt="Computer operators with an Eniac — the world’s first programmable general-purpose computer">
+            <img src="/images/susan-kare.png" alt="Susan Kare">
+        </div>
+    </section>
+
+    <section id="topics" class="nuestros_temas">
+
+        <h2>Algunos de nuestros temas</h2>
+
+        <div class="icon_group">
+            <div>
+                <img class="icon" src="/images/icon1.svg" alt="">
+                <p>Trabajo remoto</p>
+            </div>
+            <div>
+                <img class="icon" src="/images/icon2.svg" alt="">
+                <p>Repensando la programación</p>
+            </div>
+            <div>
+                <img class="icon" src="/images/icon3.svg" alt="">
+                <p>Bases del código</p>
+            </div>
+            <div>
+                <img class="icon" src="/images/icon4.svg" alt="">
+                <p>Seguridad informática</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="news">
+        <div>
+            <h2>¿Querés las últimas novedades?</h2>
+
+            <button class="button_episodes">ESCUCHÁ LOS EPISODIOS</button>
+        </div>
+
+
+    </section>
+
+    <footer>
+
+        <div class="paragraph">
+            <p>© 2019— Hello blue pale dot </p>
+        </div>
+        <div class="footer_icons">
+            <a href="https://open.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://telegram.org/" target="_blank"><i class="fab fa-telegram"></i></a>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
