@@ -264,7 +264,6 @@ float: right;
 }
 
 .news h2 {
-    margin: 36px;
     color: #FFFFFF;
     text-align: center;
     
@@ -272,11 +271,13 @@ float: right;
 
 .news div {
     padding-bottom: 151px;
+    padding-top: 62.75px;
 }
 
 .button_episodes {
     display: block;
     margin: auto;
+    margin-top: 36px;
     position: relative;
     height: 56px;
     width: 345px;
