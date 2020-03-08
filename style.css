@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    
 }
 
 nav {
@@ -17,10 +16,10 @@ nav {
 }
 
 h1, h2 {
-    font-family: IBM Plex Sans; 
+    font-family: 'IBM Plex Sans';
 }
 
-h1 {    
+h1 {
     margin-top: 142px;
     margin-left: 200px;
     margin-bottom: 0px;
@@ -35,7 +34,7 @@ h2 {
 }
 
 p {
-    font-family: IBM Plex mono; 
+    font-family: 'IBM Plex Mono';
     font-size: 16px;
 }
 
@@ -55,11 +54,10 @@ nav li {
     margin-right: 48px;
     height: 28px;
     display: inline-block;
-    font-family: IBM Plex Mono;
+    font-family: 'IBM Plex Mono';
     font-size: 16px;
     letter-spacing: 0;
     line-height: 28px;
-
 }
 
 nav a {
@@ -70,7 +68,6 @@ nav a {
 nav a:hover {
     color: #00F3BB;
     text-decoration: line-through;
-    
 }
 
 nav a:active {
@@ -79,7 +76,7 @@ nav a:active {
 }
 
 button:hover {
-    background:linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 }
 
 nav ul {
@@ -89,7 +86,6 @@ nav ul {
     float: right;
     margin-top: 26px;
     margin-bottom: 26px;
-
 }
 
 .conoce_mas {
@@ -98,7 +94,6 @@ nav ul {
     height: 56px;
     width: 226px;
     background: #00F3BB;
-    
 }
 
 button {
@@ -111,21 +106,21 @@ button {
 }
 
 button:focus {
-     outline: none; 
-    }
+    outline: none;
+}
 
 .episodios {
-    background: linear-gradient(90deg, rgba(0,0,163,1) 35%, rgba(0,0,255,1) 100%); 
+    background: linear-gradient(90deg, rgba(0, 0, 163, 1) 35%, rgba(0, 0, 255, 1) 100%);
     line-height: 0px;
 }
 
-.episodios svg{
-        bottom: 0;
-        width: 100%;
-        height: 150px;
+.episodios svg {
+    bottom: 0;
+    width: 100%;
+    height: 150px;
 }
 
-.news svg{
+.news svg {
     bottom: 0;
     width: 100%;
     height: 150px;
@@ -137,9 +132,8 @@ button:focus {
     padding-left: 64px;
 }
 
-
-iframe{
-    width: 656px;
+iframe {
+    width: 45%;
     height: 304px;
     border: none;
     padding: 36px;
@@ -155,18 +149,17 @@ iframe{
 }
 
 .right {
-position: relative;    
-float: right;
+    position: relative;
+    float: right;
 }
 
-
-.intro  {
+.intro {
     margin-bottom: 5px;
 }
 
 .phone {
     margin-top: -160px;
-    margin-left: 200px; 
+    margin-left: 200px;
     height: 660px;
     width: 457.6px;
     z-index: 1000;
@@ -177,12 +170,11 @@ float: right;
     display: inline-block;
 }
 
-.de_donde_venimos .texto {
+.de_donde_venimos .text {
     width: 464px;
     margin-left: 62.4px;
     vertical-align: top;
     margin-top: 20.4px;
-
 }
 
 .de_donde_venimos h2 {
@@ -197,7 +189,6 @@ float: right;
     font-family: 'IBM Plex Mono';
     font-size: 16px;
     margin-top: 16px;
-    
 }
 
 .invitados h2 {
@@ -208,8 +199,7 @@ float: right;
     margin-top: 64px;
     margin-bottom: 36px;
     margin-left: 200px;
-    color: #060A24; 
-
+    color: #060A24;
 }
 
 .invitados img {
@@ -224,11 +214,10 @@ float: right;
 }
 
 .nuestros_temas h2 {
-   margin: 0px;
-   margin-left: 200px;
-   margin-top: 64px;
-   margin-bottom: 64px;
-
+    margin: 0px;
+    margin-left: 200px;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .icon {
@@ -242,12 +231,10 @@ float: right;
     margin: auto;
     position: relative;
     text-align: center;
-    
 }
 
 .news {
-    
-    background: linear-gradient(90deg, rgba(0,0,163,1) 35%, rgba(0,0,255,1) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 163, 1) 35%, rgba(0, 0, 255, 1) 100%);
     /* padding-bottom: 151px; */
 }
 
@@ -266,7 +253,6 @@ float: right;
 .news h2 {
     color: #FFFFFF;
     text-align: center;
-    
 }
 
 .news div {
@@ -282,15 +268,13 @@ float: right;
     height: 56px;
     width: 345px;
     background: #00F3BB;
-    text-align: center;    
-    
+    text-align: center;
 }
 
 footer i {
     font-size: 18px;
     margin: 18px;
     padding: 0px;
-   
 }
 
 .footer_icons {
@@ -307,7 +291,6 @@ footer {
     height: 95px;
     margin-left: 100px;
     margin-right: 100px;
-  
 }
 
 .paragraph {
