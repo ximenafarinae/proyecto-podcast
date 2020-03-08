@@ -1,3 +1,47 @@
-@media screen and (min-width: 500px) {
+@media only screen and (max-width: 480px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: left;
+        width: 100%;
+    }
+    .menu li {
+        display: block;
+    }
+    .phone {
+        width: 360px;
+        height: 519px;
+        overflow: hidden;
+        text-align: center;
+        margin: auto;
+    }
+
+    .invitados img {
+        width: 100%;
+
+
+    }
+
+    .de_donde_venimos h2 {
+        font-size: 36px;
+        margin: 27px 16px 8px 16px;
+        padding: 0;
+    }
+
+    .invitados h2 {
+        font-size: 36px;
+        margin: 54px 16px 14px 16px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .invitados img {
+        width: 50%;
+
+    }
+
     
 }

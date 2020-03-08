@@ -5,9 +5,19 @@
 nav {
     height: 80px;
     background: #FFFFFF;
+    text-align: right;
+}
+
+label {
+    display: none;
+}
+
+#toggle {
+    display: none;
 }
 
 .logo {
+    float: left;
     height: 36px;
     width: 36px;
     margin-left: 100px;
@@ -203,7 +213,8 @@ iframe {
 }
 
 .invitados img {
-    width: 480px;
+    width: 33.33%;
+    height: auto;
     margin: 0px;
     border: none;
     float: left;
