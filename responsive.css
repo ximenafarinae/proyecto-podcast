@@ -1,4 +1,17 @@
 @media only screen and (max-width: 480px) {
+    .text {
+        margin: 0px;
+    }
+    .intro p {
+        margin: 0px;
+    }
+    .conoce_mas {
+        margin: 0px;
+    }
+    .content {
+        padding-left: 0px;
+    }
+    
     label {
         display: block;
         cursor: pointer;
@@ -8,40 +21,52 @@
         width: 100%;
     }
     .menu li {
-        display: block;
+        display: none;
     }
     .phone {
-        width: 360px;
-        height: 519px;
+        width: 100%;
+        height: auto;
         overflow: hidden;
         text-align: center;
         margin: auto;
     }
-
     .invitados img {
         width: 100%;
 
-
     }
-
+    .nuestros_temas h2 {
+        margin: 0px;
+    }
+    .icon_group {
+        display: block;
+    }
+    /* label:before {
+        content: ' ☰';
+    }
+    #toggle:checked+.menu {
+        display: block;
+    }
+    #toggle:checked~label:before {
+        display: block;
+        content: ' X'; */
+    }
     .de_donde_venimos h2 {
         font-size: 36px;
         margin: 27px 16px 8px 16px;
         padding: 0;
     }
-
     .invitados h2 {
         font-size: 36px;
         margin: 54px 16px 14px 16px;
         padding: 0;
     }
+    iframe {
+        width: 100%;
+    }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:768px) {
     .invitados img {
         width: 50%;
-
     }
-
-    
 }
