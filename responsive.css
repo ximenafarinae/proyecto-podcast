@@ -22,9 +22,6 @@
         text-align: left;
         width: 100%;
     }
-    .menu li {
-        display: none;
-    }
     .phone {
         width: 100%;
         height: auto;
@@ -51,16 +48,26 @@
     .episodios h2 {
         margin-left: 0px;
     }
-    /* label:before {
-        content: ' ☰';
+    /*MENU HAMBURGUESA*/
+
+    .menu {
+        display: none;
     }
-    #toggle:checked+.menu {
-        display: block;
+    label:before {
+        content: ' ☰';
     }
     #toggle:checked~label:before {
         display: block;
-        content: ' X'; 
-    }*/
+        content: ' X';
+    }
+    #toggle:active {
+        display: block;
+    }
+    input:checked~.menu {
+        display: block;
+    }
+    /*FIN MENU HAMBURGUESA*/
+    
     .de_donde_venimos {
         display: block;
     }
