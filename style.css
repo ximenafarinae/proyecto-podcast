@@ -127,13 +127,13 @@ button:focus {
 .episodios svg {
     bottom: 0;
     width: 100%;
-    height: 150px;
+    height: 15vw;
 }
 
 .news svg {
     bottom: 0;
     width: 100%;
-    height: 150px;
+    height: 15vw;
 }
 
 .content {
@@ -176,9 +176,7 @@ iframe {
     position: relative;
 }
 
-.de_donde_venimos div {
-    display: inline-block;
-}
+
 
 .de_donde_venimos .text {
     width: 464px;
@@ -242,6 +240,10 @@ iframe {
     margin: auto;
     position: relative;
     text-align: center;
+}
+
+.de_donde_venimos {
+    display: flex;
 }
 
 .news {

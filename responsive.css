@@ -2,6 +2,9 @@
     .text {
         margin: 0px;
     }
+    h1 {
+        font-size: 36px;
+    }
     .intro p {
         margin: 0px;
     }
@@ -11,7 +14,6 @@
     .content {
         padding-left: 0px;
     }
-    
     label {
         display: block;
         cursor: pointer;
@@ -29,16 +31,25 @@
         overflow: hidden;
         text-align: center;
         margin: auto;
+        margin-top: -106px;
     }
     .invitados img {
         width: 100%;
-
     }
     .nuestros_temas h2 {
         margin: 0px;
     }
     .icon_group {
         display: block;
+    }
+    .button_episodes {
+        width: auto;
+        font-size: 16px;
+        padding-left: 43px;
+        padding-right: 43px;
+    }
+    .episodios h2 {
+        margin-left: 0px;
     }
     /* label:before {
         content: ' ☰';
@@ -48,7 +59,10 @@
     }
     #toggle:checked~label:before {
         display: block;
-        content: ' X'; */
+        content: ' X'; 
+    }*/
+    .de_donde_venimos {
+        display: block;
     }
     .de_donde_venimos h2 {
         font-size: 36px;
@@ -65,8 +79,16 @@
     }
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:481px) and (max-width:768px) {
     .invitados img {
         width: 50%;
+    }
+    iframe {
+        width: 50%;
+    }
+    .de_donde_venimos h2 {
+        font-size: 36px;
+        margin: 27px 16px 8px 16px;
+        padding: 0;
     }
 }
