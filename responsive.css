@@ -1,6 +1,11 @@
 @media only screen and (max-width: 480px) {
+
     .text {
         margin: 0px;
+        font-size: 36px;
+        margin-left: 16px;
+        padding-top: 29px;
+        padding-bottom: 16px;
     }
     h1 {
         font-size: 36px;
@@ -56,18 +61,23 @@
     label:before {
         content: ' ☰';
     }
+
+label {
+    font-family: 'IBM Plex Mono';
+    margin-top: 16px;
+    margin-right: 19px;
+}
+
     #toggle:checked~label:before {
         display: block;
         content: ' X';
     }
-    #toggle:active {
-        display: block;
-    }
+    
     input:checked~.menu {
         display: block;
     }
     /*FIN MENU HAMBURGUESA*/
-    
+
     .de_donde_venimos {
         display: block;
     }
@@ -83,6 +93,12 @@
     }
     iframe {
         width: 100%;
+    }
+
+    .logo {
+        height: 24px;
+        width: 24px;
+        margin: -20px 0 10px 16px;
     }
 }
 
