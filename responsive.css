@@ -1,5 +1,4 @@
 @media only screen and (max-width: 480px) {
-
     .text {
         margin: 0px;
         font-size: 36px;
@@ -11,13 +10,18 @@
         font-size: 36px;
     }
     .intro p {
-        margin: 0px;
+        margin: 0px 16px 0px 16px;
+    }
+    header nav {
+        height: 44px;
     }
     .conoce_mas {
-        margin: 0px;
+        width: 288px;
+        height: 48px;
+        margin: 36px 16px 36px 16px;
     }
     .content {
-        padding-left: 0px;
+        padding: 0px;
     }
     label {
         display: block;
@@ -33,7 +37,7 @@
         overflow: hidden;
         text-align: center;
         margin: auto;
-        margin-top: -106px;
+        margin-top: -100px;
     }
     .invitados img {
         width: 100%;
@@ -51,33 +55,45 @@
         padding-right: 43px;
     }
     .episodios h2 {
-        margin-left: 0px;
+        font-size: 36px;
+        margin: 64px 147px 21px 16px;
+        z-index: 1000;
     }
     /*MENU HAMBURGUESA*/
-
     .menu {
         display: none;
     }
     label:before {
         content: ' ☰';
     }
-
-label {
-    font-family: 'IBM Plex Mono';
-    margin-top: 16px;
-    margin-right: 19px;
-}
-
+    label {
+        font-family: 'IBM Plex Mono';
+        margin-top: 10px;
+        margin-right: 19px;
+        width: 25px;
+        height: auto;
+        float: right;
+    }
     #toggle:checked~label:before {
         display: block;
         content: ' X';
     }
-    
     input:checked~.menu {
         display: block;
+        background-color: #0000EC;
+        padding-bottom: 15px;
+    }
+    input:checked~.menu a {
+        color: #ffffff;
+        display: block;
+        padding: 15px 200px 15px 16px;
+    }
+    nav ul {
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 10px;
     }
     /*FIN MENU HAMBURGUESA*/
-
     .de_donde_venimos {
         display: block;
     }
@@ -86,19 +102,63 @@ label {
         margin: 27px 16px 8px 16px;
         padding: 0;
     }
+    .de_donde_venimos p {
+        margin: 8px 16px 0px 16px;
+    }
     .invitados h2 {
         font-size: 36px;
         margin: 54px 16px 14px 16px;
         padding: 0;
     }
-    iframe {
+    .episodios iframe {
+        padding: 11px;
         width: 100%;
+        margin-top: -60px;
     }
-
     .logo {
         height: 24px;
         width: 24px;
-        margin: -20px 0 10px 16px;
+        margin: 10px 0 10px 16px;
+    }
+    .nuestros_temas h2 {
+        font-size: 36px;
+        margin: 48px 16px 37px 16px;
+    }
+    .nuestros_temas p {
+        font-size: 24px;
+    }
+    .icon {
+        width: 104px;
+        height: 104px;
+        padding: 0px;
+    }
+    .news div h2 {
+        font-size: 36px;
+        margin: 64px 16px 36px 16px;
+    }
+    .news div {
+        padding-top: 0px;
+    }
+    .button_episodes {
+        width: 288px;
+        height: 48px;
+    }
+    footer {
+        margin: 0px;
+        padding: 0px;
+    }
+    .paragraph {
+        margin: 24px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_icons {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 16px;
+        width: 100%;
+        padding-left: 29px;
     }
 }
 
