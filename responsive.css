@@ -148,7 +148,8 @@
         padding: 0px;
     }
     .paragraph {
-        margin: 24px;
+        margin: 24px 0px 24px 0px;
+        padding-left: 24px;
         width: 100%;
         display: flex;
         justify-content: space-between;
