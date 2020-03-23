@@ -21,7 +21,7 @@
         margin: 36px 16px 36px 16px;
     }
     .content {
-        padding: 0px;
+        padding: 0px 0px 110px 0px;
     }
     label {
         display: block;
@@ -37,7 +37,7 @@
         overflow: hidden;
         text-align: center;
         margin: auto;
-        margin-top: -100px;
+        margin-top: -106px;
     }
     .invitados img {
         width: 100%;
@@ -110,10 +110,11 @@
         margin: 54px 16px 14px 16px;
         padding: 0;
     }
+    
     .episodios iframe {
         padding: 11px;
         width: 100%;
-        margin-top: -60px;
+        margin-bottom: -60px;
     }
     .logo {
         height: 24px;
